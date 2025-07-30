@@ -79,7 +79,6 @@ Give a short, friendly motivational coaching message, with one fitness tip and o
     # Default response if no API keys are set
     if prediction:
         responses = [
-            # "your working out so well❤️‍🔥! your working out better than my marriage is🔥🔥!"
             "🎯 Excellent work! You're crushing your fitness goals. 💪 Tip: Try adding some strength training to your routine. 🍽️ Meal idea: Salmon with sweet potato and steamed broccoli.",
             "🚀 You're on fire! Your consistency is paying off. 💪 Tip: Mix up your cardio with some HIIT intervals. 🍽️ Meal idea: Turkey and avocado wrap with a side salad.",
             "⭐ Amazing progress! You're building healthy habits. 💪 Tip: Focus on proper form during your workouts. 🍽️ Meal idea: Quinoa bowl with grilled chicken and roasted vegetables.",
@@ -93,7 +92,6 @@ Give a short, friendly motivational coaching message, with one fitness tip and o
             "🌟 Small steps lead to big changes. Let's get back on track! 🔥 Tip: Try a 15-minute home workout. 🍽️ Meal idea: Oatmeal with banana and honey.",
             "🌈 Progress isn't always linear - that's totally normal! 🔥 Tip: Take the stairs instead of the elevator. 🍽️ Meal idea: Smoothie bowl with protein powder.",
             "🎯 You're stronger than any setback. Let's bounce back! 🔥 Tip: Do some gentle stretching today. 🍽️ Meal idea: Grilled cheese with tomato soup."
-            # "GET UP LAZY YOUR ACTING LIKE A PANDA, LAZY, STUPID AND ANNOYING"
         ]
         import random
         return random.choice(responses)
