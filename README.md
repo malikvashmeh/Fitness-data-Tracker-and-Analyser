@@ -23,5 +23,3 @@ Open: http://localhost:8501
 - Motivational messages
 - Fitness tips
 - Meal suggestions
-
-Works with or without internet! 
