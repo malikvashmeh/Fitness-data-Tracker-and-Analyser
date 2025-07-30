@@ -9,7 +9,7 @@ source env/bin/activate
 streamlit run app.py
 ```
 
-Open: http://localhost:8501
+Opens in: http://localhost:8501
 
 ## Use It
 
