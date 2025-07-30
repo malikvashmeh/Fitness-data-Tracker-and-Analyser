@@ -10,8 +10,8 @@ from utils import load_model, predict_progress, get_motivational_response
 # Getting an LLM-based response
 
 
-st.set_page_config(page_title="Fitness Goal Coach💪🏼", layout="centered")
-st.title("🏋🏽Fitness Goal Coach💪🏼")
+st.set_page_config(page_title="Fitness Goal Coach", layout="centered")
+st.title("Fitness Goal Coach")
 
 st.markdown("Enter your daily stats to see if you're on track and get motivational coaching.")
 

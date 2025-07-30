@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 
 
 
-# 🔐 API Key Loading
+# API Key Loading
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
@@ -27,7 +27,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 
 
-# 🧠 Load ML Model
+# Load ML Model
 def load_model():
     return joblib.load("model/fitness_model.pkl")
 # Loads your saved model from disk.
@@ -35,7 +35,7 @@ def load_model():
 # Returns the model but does not print or display anything on its own.
 
 
-# 🔍 Make Predictions
+# Make Predictions
 def predict_progress(model, input_data):
     return model.predict([input_data])[0]
 # Takes the model and input data, makes a prediction, and returns the result.
@@ -46,7 +46,7 @@ def predict_progress(model, input_data):
 # Also returns a value but produces no output unless printed elsewhere
 
 
-# 💬 Get Motivational Response (LLM)
+# Get Motivational Response (LLM)
 def get_motivational_response(input_data, prediction):
     prompt = f"""
 User fitness data: {input_data}
