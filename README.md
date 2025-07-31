@@ -5,11 +5,13 @@ AI-powered fitness coaching app.
 ## Run It
 
 ```bash
+python -m venv venv
 source env/bin/activate
+pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Opens in: http://localhost:8501
+Opens locally in: http://localhost:8501
 
 ## Use It
 
