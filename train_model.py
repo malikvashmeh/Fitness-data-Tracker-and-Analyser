@@ -1,3 +1,5 @@
+# -----Created by: Vashmeh Malik-----
+# -----Date: 30/07/2025-----
 
 # Model Training Script
 
@@ -60,4 +62,4 @@ Saves the trained model to a file called fitness_model.pkl.
 joblib is used because it efficiently stores large NumPy/scikit-learn objects.
 """
 
-print("✅ Model trained and saved.")
+print("Model trained and saved.")
