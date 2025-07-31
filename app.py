@@ -2,11 +2,12 @@
 
 # app.py
 import streamlit as st
+
 from utils import load_model, predict_progress, get_motivational_response
-# Loading the ML model
+# Loading the 3 functions made in utils.py 
 
+# Utilities - These are helper functions (main app file clean, can test funcs indep groups them tg)
 # Predicting fitness progress
-
 # Getting an LLM-based response
 
 

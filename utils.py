@@ -1,4 +1,4 @@
-# Predict & Gemini Response
+# Predict Response
 
 import joblib
 # joblib: For loading the saved ML model.
@@ -22,9 +22,7 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 # Reads your .env file and sets API keys.
-
-# This does not produce any output — it silently loads the keys.
-
+# !!! Does NOT work as of Now
 
 
 # Load ML Model

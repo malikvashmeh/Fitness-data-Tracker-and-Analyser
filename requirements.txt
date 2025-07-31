@@ -5,3 +5,4 @@ joblib
 openai
 python-dotenv
 google-generativeai
+watchdog
