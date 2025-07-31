@@ -104,3 +104,5 @@ Desktop.ini
 
 # Secrets (optional, add cautiously)
 *.env
+
+Project_Documentation.md
