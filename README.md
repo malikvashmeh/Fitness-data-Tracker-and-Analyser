@@ -8,6 +8,7 @@ AI-powered fitness coaching app.
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+python train_model.py
 streamlit run app.py
 ```
 
